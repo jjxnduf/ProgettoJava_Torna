@@ -35,7 +35,7 @@ public class Main {
         
         for(int i = 0; i < cavalli.size(); i++){
             Cavalli c = cavalli.get(i);
-            System.out.println((i+1)+ "° posto: " + c.getName() + " " + c.getDuration() + " ms");
+            System.out.println((i + 1)+ "° posto: " + c.getName() + ", con tempo di: " + c.getDuration() + " ms");
         }
     }
 }
